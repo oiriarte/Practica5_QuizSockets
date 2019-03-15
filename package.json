@@ -1,0 +1,31 @@
+{
+  "name": "CORE19-04_quiz_bbdd",
+  "version": "1.0.0",
+  "description": "CORE19-04_quiz_bbdd",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "checks": "node tests/launcher.js",
+    "zip": "node tests/compress.js"
+  },
+  "private": true,
+  "keywords": [
+    "CORE",
+    "QUIT"
+  ],
+  "author": "Oscar Iriarte",
+  "license": "Unlicense",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "chai": "^4.1.2",
+    "chalk": "^2.3.0",
+    "figlet": "^1.2.0",
+    "fs-extra": "^6.0.1",
+    "mocha": "^5.2.0",
+    "node": "^11.11.0",
+    "node.js": "0.0.0",
+    "sequelize": "^4.43.0",
+    "sqlite3": "^4.0.6",
+    "underscore": "^1.8.3"
+  }
+}
